@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise Tracker | FreeCodeCamp Challenge</title>
+    <link
+      rel="shortcut icon"
+      href="https://github.com/johnchristotle/icon.png"
+      type="icon/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h3>EXERCISE TRACKER APP</h3>
+    <form action="/api/exercise/new-user" method="post">
+      <h3>Create a New User</h3>
+      <input id="uname" type="text" name="username" placeholder="username" />
+      <input type="submit" value="Add" />
+    </form>
+    <h4>
+      Or ...
+    </h4>
+    <form action="/api/exercise/add" method="post">
+      <h3>Add Exercise Session</h3>
+      <input id="uid" type="text" name="userId" placeholder="userId*" />
+      <input
+        id="desc"
+        type="text"
+        name="description"
+        placeholder="description*"
+      />
+      <input
+        id="dur"
+        type="text"
+        name="duration"
+        placeholder="duration* (mins.)"
+      />
+      <input id="dat" type="text" name="date" placeholder="date (yyyy-mm-dd)" />
+      <input type="submit" value="Add Session" />
+    </form>
+    <p>by <a href="https://nesh.gq">Christotle Agholor</a></p>
+  </body>
+</html>
