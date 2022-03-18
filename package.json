@@ -1,0 +1,26 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "REST API for FreeCodeCamp Backend Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "microservice", 
+    "node",
+		"gomix",
+		"express",
+  "rest api"
+],
+  "author": "Christotle Agholor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "shortid": "^2.2.16"
+  }
+}
