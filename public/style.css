@@ -264,7 +264,7 @@ html {
   input[type="button"] {
       color: #660a57;
       border: 1px solid #babdb6;
-      background-color: #FCF0F2;
+      background-color: white;
   }
   
   
@@ -304,7 +304,7 @@ html {
   input[type="password"],
   textarea,
   select {
-      background-color: #FCF0F2;
+      background-color: white;
       border: 1px solid #babdb6;
       color: #740552
   }
