@@ -1,9 +1,5 @@
 # Exercise Tracker REST API
 
-View Live App 
-
-https://glitch.com/~exercise-tracker-johnchristotle
-
 
 #### A microservice project, part of Free Code Camp's curriculum
 
