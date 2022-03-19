@@ -12,7 +12,7 @@ html {
     line-height: 1.6;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #222; 
+    color: rgb(65, 2, 2); 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,7 +243,7 @@ html {
   
   body {
       color: #FCF0F2;
-      background: #503b4e;
+      background: #800373;
   }
   
   /* Links */
@@ -262,7 +262,7 @@ html {
   input[type="submit"],
   input[type="reset"],
   input[type="button"] {
-      color: #1D1F20;
+      color: #660a57;
       border: 1px solid #babdb6;
       background-color: #FCF0F2;
   }
@@ -288,7 +288,7 @@ html {
   input[type="submit"].button-primary:focus,
   input[type="reset"].button-primary:focus,
   input[type="button"].button-primary:focus {
-      color: #2e3436;
+      color: #7c065f;
       background-color: #f57900;
       border-color: #f57900;
   }
@@ -306,7 +306,7 @@ html {
   select {
       background-color: #FCF0F2;
       border: 1px solid #babdb6;
-      color: #1D1F20
+      color: #740552
   }
   
   input[type="email"]:focus,
@@ -346,11 +346,11 @@ html {
     min-width: 500px;
     border-radius: 3px;
     background-color: #FCF0F2;
-    color: #1D1F20
+    color: #640554
   }
   
   input[type='submit']{
-    background-color: #453b50 !important;
+    background-color: #5c0658 !important;
     color: #FCF0F2 !important;
   }
   
